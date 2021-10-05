@@ -54,7 +54,7 @@ export default {
       youtubeItems: [
         {
           src: "https://youtu.be/ZOoVOfieAF8",
-          thumb: require("../../assets/img/video/1.jpg"),
+          thumb: "",
         },
       ],
     };

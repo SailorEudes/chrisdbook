@@ -141,17 +141,17 @@ export default {
   },
   data() {
     return {
-      imgSrc: require("../../assets/img/callto-action/2.jpg"),
+      imgSrc: "",
       isActive: false,
       isVisible: false,
     };
   },
   methods: {
-    showModal: function() {
+    showModal() {
       this.isActive = true;
       this.isVisible = true;
     },
-    closeModal: function() {
+    closeModal() {
       this.isActive = false;
       this.isVisible = false;
     },
